@@ -1,0 +1,105 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 18px;
+}
+
+/* Profiles container styles */
+.profiles-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Profile card styles */
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Profile header section */
+.profile-header {
+    flex: 0 0 150px; /* Set fixed width for the image and name section */
+    text-align: center;
+    margin-right: 20px; /* Add space between the image and text */
+}
+
+/* Profile image styles */
+.profile-img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Profile name styles */
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Profile bio styles */
+.profile-bio {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Profile details section */
+.profile-details {
+    text-align: left;
+    flex: 1;
+}
+
+.profile-details h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Profile details text */
+.profile-details p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
